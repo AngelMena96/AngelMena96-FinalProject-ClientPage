@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+        <link rel="stylesheet" href="../css/styles.css">
+        <script src="../javascript/script.js" defer></script>
+        <title>
+            Products And Services
+        </title>
+    </head>
+    <body>
+        <nav>
+            <ul id="navBar">
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="AboutUs.html">About Us</a></li>
+                <li><a href="ProductsAndServices.html">Products and Services</a></li>
+                <li><a href="Resources.html">Resources</a></li>
+                <li><a href="ContactUs.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <h1>Services and Products</h1>
+        <div class="serviceOptions">
+            <div class="dropdown">
+                <img class="dropMenuImages" src="../images/SolarPanel.jpg" alt="solar panel cells">
+                <button onclick="showSolar()" class="dropbtn">Smart Solar Panel</button>
+                <div id="showSolar" class="dropdown-content">
+                    <p class="description">Customized solar energy requirement assessment and installation for businesses, schools,
+                        and municipalities looking to reduce their carbon footprint. These high-efficiency solar panels are
+                        designed for residential and commercial buildings, featuring smart energy tracking and 
+                        weather-resistant technology.
+                    </p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img class="dropMenuImages" src="../images/Thermostat.jpg" alt="wall mounted smart thermostat">
+                <button onclick="showThermo()" class="dropbtn">GreenSync Smart Thermostat</button>
+                <div id="showThermo" class="dropdown-content">
+                    <p class="description">An AI-powered thermostat that learns user habits to reduce energy consumption, lower utility costs, 
+                        and optimize indoor comfort.
+                    </p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img class="dropMenuImages" src="../images/industrialPlant.jpg" alt="Industrial plant producing harmful gasses ">
+                <button onclick="showConsulting()" class="dropbtn">Carbon Footprint Reduction Programs</button>
+                <div id="showConsulting" class="dropdown-content">
+                    <p class="description">Corporate sustainability programs that help organizations measure, track, and reduce emissions 
+                        through data analytics and green technology integration.
+                    </p>
+                </div>
+            </div>
+        </div>    
+
+        <div class="serviceOptions">
+            <div class="dropdown">
+                <img class="dropMenuImages" src="../images/RecyclingContainers.jpg" alt="recycling containers for varoious materials">
+                <button onclick="showRecycling()" class="dropbtn">Waste Management & Recycling Programs</button>
+                <div id="showRecycling" class="dropdown-content">
+                    <p class="description">Designing systems for composting, recycling, electronic waste handling, or circular economy initiatives.</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img class="dropMenuImages" src="../images/carChargingStation.jpg" alt="electrical car charging station">
+                <button onclick="showCharging()" class="dropbtn">Electric Vehicle Charging Stations</button>
+                <div id="showCharging" class="dropdown-content">
+                    <p class="description">Smart chargers for homes, offices, parking lots, or public infrastructure.</p>
+                </div>
+            </div>
+            <div class="dropdown">
+                <img class="dropMenuImages" src="../images/packingMaterials.jpg" alt="box full of packing materials">
+                <button onclick="showPacking()" class="dropbtn">Biodegradable Packaging Materials</button>
+                <div id="showPacking" class="dropdown-content">
+                    <p class="description">Sustainable alternatives to plastic packaging made from plant-based or recyclable materials.</p>
+                </div>
+            </div>
+        </div>    
+
+    </body>
+</html>
